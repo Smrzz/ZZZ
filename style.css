@@ -32,3 +32,70 @@ header {
     font-size: 24px;
     font-weight: 500;
 }
+
+.utp {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 17px;
+    background-image: url("pics/back.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 83px;
+    padding-bottom: 83px;
+}
+
+.utp-contents {
+    display: flex;
+    gap: 114px;
+}
+
+.utp-pic {
+    max-width: 521px;
+    max-height: 521px;
+}
+
+.utp-content {
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+
+.utp-text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.monts {
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+
+.utp-title {
+    font-family: 'Inknut Antiqua';
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.utp-subtitle {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.utp-text {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.utp-icons {
+    display: flex;
+    gap: 30px;
+}
+
+.utp-links {
+    max-width: 40px;
+}
