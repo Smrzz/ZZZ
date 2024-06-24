@@ -23,10 +23,10 @@ header {
     display: flex;
     flex-direction: row;
     gap: 74px;
-    
+
 }
 
-.nav{
+.nav {
     list-style-type: none;
     font-family: 'Inknut Antiqua';
     font-size: 24px;
@@ -99,3 +99,26 @@ header {
 .utp-links {
     max-width: 40px;
 }
+
+.greyday {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.static {
+    position: absolute;
+    background: white;
+}
+
+.static:hover {
+    opacity: 0;
+}
+
+.active {
+    width: 1385px;
+    height: 771px;
+}
+
