@@ -385,3 +385,66 @@ footer {
     font-size: 16px;
     font-weight: 500; 
 }
+
+.tour-main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.tour-contents {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 45px;
+    flex-direction: column;
+    align-items:center;
+}
+
+.tour {
+    display: flex;
+    justify-content: space-between;
+    width: 1385px;
+    align-items:center;
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+
+}
+
+.tour-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.tour-info {
+    color: black;
+    font-family: 'Inknut Antiqua';
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.tour-who {
+    color: black;
+    font-family: 'Inknut Antiqua';
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.tour-btn {
+    width: 240px;
+    height: 55px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-family: 'Inknut Antiqua';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tour-btn:hover {
+    background-color: white;
+    color: black;
+}
+
