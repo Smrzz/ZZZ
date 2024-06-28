@@ -264,13 +264,14 @@ footer {
 .bio-text {
     color: black;
     font-family: 'Inknut Antiqua';
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 }
 
 .bio-social {
     display: flex;
     gap: 30px;
+    max-width: 25px;
 }
 
 .bio-songs {
@@ -323,4 +324,64 @@ footer {
     font-family: 'Inknut Antiqua';
     font-size: 28px;
     font-weight: 500;
+}
+
+.music-main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.music-contents {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    gap: 40px;
+}
+
+.music-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1385px;
+    gap: 30px 55px;
+}
+
+.music-title {
+    color: black;
+    font-family: 'Inknut Antiqua';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.music-pic {
+    width: 305px;
+    height: 305px;
+}
+
+.music-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 305px;
+}
+
+.music-card:hover {
+    cursor: pointer;
+}
+
+.price {
+    color: white;
+    font-family: 'Inknut Antiqua';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.shop-text {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500; 
 }
