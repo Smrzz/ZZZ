@@ -226,6 +226,14 @@ footer {
     font-weight: 500;
 }
 
+.main-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
 .bio-contents {
     margin-top: 80px;
     display: flex;
@@ -263,4 +271,56 @@ footer {
 .bio-social {
     display: flex;
     gap: 30px;
+}
+
+.bio-songs {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.songs-content {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.songs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.songs img:hover{
+    filter: none;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+.bio-song {
+    max-width: 425px;
+    max-height: 425px;
+    filter: brightness(75%);
+}
+
+.song-info {
+    color: white;
+    font-family: 'Inknut Antiqua';
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.songs-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Inknut Antiqua';
+    font-size: 28px;
+    font-weight: 500;
 }
