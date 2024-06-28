@@ -23,7 +23,6 @@ header {
     display: flex;
     flex-direction: row;
     gap: 74px;
-
 }
 
 .nav {
@@ -33,7 +32,18 @@ header {
     font-weight: 500;
 }
 
-main{
+.nav:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .1s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
     background: linear-gradient(180deg, #fff 0%, #999 42.2%, #343434 99.76%);
 }
 
@@ -42,7 +52,8 @@ main{
     width: 100%;
     justify-content: center;
     margin-top: 17px;
-    background-image: url("pics/back.png");
+    background: fixed url("pics/back.png") center 0 no-repeat;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     padding-top: 83px;
@@ -98,6 +109,12 @@ main{
 .utp-icons {
     display: flex;
     gap: 30px;
+    max-width: 250px;
+}
+
+.utp-links:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 .utp-links {
@@ -151,4 +168,99 @@ footer {
     font-family: 'Montserrat';
     font-size: 24px;
     font-weight: 400;
+}
+
+.terms:hover {
+    cursor: pointer;
+    color: black;
+    transition: .2s;
+}
+
+.term {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.members-contents {
+    margin-top: 35px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 54px;
+    width: 1385px;
+}
+
+.member {
+    display: flex;
+    max-width: 305px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.member img:hover {
+    filter: none;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.member-pic {
+    display: flex;
+    width: 305px;
+    height: 305px;
+    filter: grayscale(100%);
+}
+
+.member-text {
+    color: #fff;
+    font-family: 'Inknut Antiqua';
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.bio-contents {
+    margin-top: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.bio-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.bio-pic {
+    width: 600px;
+    height: 600px;
+}
+
+.bio-info {
+    display: flex;
+    max-width: 665px;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.bio-text {
+    color: black;
+    font-family: 'Inknut Antiqua';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bio-social {
+    display: flex;
+    gap: 30px;
 }
